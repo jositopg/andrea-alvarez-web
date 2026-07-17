@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #faf7f2;
+  --color-surface: #f1ece1;
+  --color-border: #ddd2bd;
+  --color-primary: #8b8a63;
+  --color-primary-dark: #63623f;
+  --color-primary-light: #e3c9b8;
+  --color-text: #2f2b22;
+  --color-text-muted: #6b6455;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: '"Libre Caslon Display"', Georgia, serif;
+}
